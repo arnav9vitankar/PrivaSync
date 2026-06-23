@@ -3,9 +3,9 @@ import Sidebar from "@/frontend/src/components/Sidebar";
 
 
 export default function DashboardLayout({
-children        // Whatever is put inside the DashboardLayout tag will come here
+children       // Whatever is put inside the DashboardLayout tag will come here
 }:{
-children:React.ReactNode   // The component expects a prop called children, and it can be any valid React content
+children?:React.ReactNode   // The component expects a prop called children, and it can be any valid React content
 }){
 
     // flex creates a horizontal flex layout , flex-1 means:"Take all remaining space."

@@ -1,8 +1,11 @@
+import DashboardLayout from "@/frontend/src/layouts/DashboardLayout";
+
 export default function UserDashboardPage() {
   return (
     <div>
-      <h1>Dashboard</h1>
-      <p>Welcome to the user dashboard!</p>
+      <DashboardLayout>
+        <div>hi</div>
+      </DashboardLayout>
     </div>
   );
 }
